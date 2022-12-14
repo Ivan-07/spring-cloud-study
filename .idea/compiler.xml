@@ -18,10 +18,12 @@
         <module name="eureka-client-a" />
         <module name="rent-car-service" />
         <module name="user-service" />
+        <module name="feign-project" />
         <module name="eureka-server-b" />
         <module name="eureka-server-c" />
         <module name="ribbon-02" />
         <module name="eureka-server-1" />
+        <module name="Fish" />
         <module name="order-service" />
         <module name="provider-b" />
         <module name="consumer" />
@@ -36,6 +38,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Fish" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="customer-service" options="-parameters" />
       <module name="eureka-client-a" options="-parameters" />

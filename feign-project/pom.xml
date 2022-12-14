@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.12.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>org.example</groupId>
+    <artifactId>feign-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--全局版本控制的地方-->
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <!--全局依赖，所有的子模块都会有-->
+    <dependencies>
+
+    </dependencies>
+
+    <!--加载这里的依赖不会被真的引入项目，只是做版本控制-->
+    <dependencyManagement>
+
+    </dependencyManagement>
+
+    <build>
+
+    </build>
+
+</project>

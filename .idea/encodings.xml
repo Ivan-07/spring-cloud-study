@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/eureka-01/eureka-client-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-01/eureka-client-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-01/eureka-server-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-01/eureka-server-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-01/eureka-server-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-01/eureka-server-c/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix/customer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix/rent-car-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openfeign/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openfeign/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openfeign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openfeign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openfeign/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-02/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-02/provider-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-02/provider-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: customer-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://10.116.48.78:8761/eureka
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
+
+feign:
+  hystrix:
+    enabled: true

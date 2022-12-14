@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/openfeign/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/hystrix/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client-b" />
+        <module name="openfeign" />
+        <module name="hystrix" />
+        <module name="customer-service" />
+        <module name="study-springcloud" />
+        <module name="eureka-client-a" />
+        <module name="rent-car-service" />
+        <module name="user-service" />
+        <module name="eureka-server-b" />
+        <module name="eureka-server-c" />
+        <module name="ribbon-02" />
+        <module name="eureka-server-1" />
+        <module name="order-service" />
+        <module name="provider-b" />
+        <module name="consumer" />
+        <module name="provider-a" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-01" target="1.8" />
+      <module name="eureka-01-server" target="1.5" />
+      <module name="eureka-server-01" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer" options="-parameters" />
+      <module name="customer-service" options="-parameters" />
+      <module name="eureka-client-a" options="-parameters" />
+      <module name="eureka-client-b" options="-parameters" />
+      <module name="eureka-server-01" options="-parameters" />
+      <module name="eureka-server-1" options="-parameters" />
+      <module name="eureka-server-b" options="-parameters" />
+      <module name="eureka-server-c" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="provider-a" options="-parameters" />
+      <module name="provider-b" options="-parameters" />
+      <module name="rent-car-service" options="-parameters" />
+      <module name="ribbon-02" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

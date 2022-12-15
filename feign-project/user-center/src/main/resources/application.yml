@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: user-service
+  zipkin:
+    base-url: http://10.116.48.78:9411
+  sleuth:
+    sampler:
+      probability: 0.1
+      rate: 10
 eureka:
   client:
     service-url:

@@ -14,6 +14,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-b" />
         <module name="openfeign" />
+        <module name="login-service" />
         <module name="hystrix" />
         <module name="user-center" />
         <module name="customer-service" />
@@ -29,9 +30,11 @@
         <module name="ribbon-02" />
         <module name="eureka-server-1" />
         <module name="Fish" />
+        <module name="gateway-server" />
         <module name="order-service" />
         <module name="provider-b" />
         <module name="consumer" />
+        <module name="gateway" />
         <module name="provider-a" />
       </profile>
     </annotationProcessing>
@@ -53,6 +56,8 @@
       <module name="eureka-server-1" options="-parameters" />
       <module name="eureka-server-b" options="-parameters" />
       <module name="eureka-server-c" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="login-service" options="-parameters" />
       <module name="order-center" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="project-domain" options="-parameters" />
